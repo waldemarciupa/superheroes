@@ -1,15 +1,17 @@
 from random import randint
 
-class SuperCiastko:
+
+class SuperCookie:
     def __init__(self, name, superpowers):
         self.name = "supername"
         self.superpower = superpowers
-        self.life_points = randint(1,10)
+        self.life_points = randint(1, 10)
 
     def attack(self):
-        return randint(1,10)
+        return randint(1, 10)
 
     def decrease_life(self, x):
         self.life_points -= x
 
-supe_ciastko = SuperCiastko('SuperCiastko', ['słodkosć', 'miłość', 'piekność'])
+
+super_cookie = SuperCookie('SuperCookie', ['sweet', 'love', 'beautifull'])
